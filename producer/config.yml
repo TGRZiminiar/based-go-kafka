@@ -1,0 +1,12 @@
+kafka:
+  servers:
+    - 127.0.0.1:9092
+  group: base-topic
+
+db:
+  driver: postgres
+  host: 127.0.0.1
+  port: 5432
+  UserName: mix
+  password: 123
+  database: base-go-kafka
